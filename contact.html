@@ -31,16 +31,37 @@
 
   <div class="container mt-4">
     <h1><u>Stel uw vragen hier!</u></h1>
-    <p>
-      Druk op de knop om een mail te versturen naar het Sensoria-team!
-    </p>
-    <a href="mailto:sensoria@gmail.com" class="btn btn-primary">Stuur een e-mail!</a>
-  </div>
-
-  <div class="container mt-4">
-    <a href="index.html" class="email-button">Terug naar de hoofdpagina <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-left" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M1.146 4.854a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H12.5A2.5 2.5 0 0 1 15 6.5v8a.5.5 0 0 1-1 0v-8A1.5 1.5 0 0 0 12.5 5H2.707l3.147 3.146a.5.5 0 1 1-.708.708z"/>
-    </svg></a>
-  </div>
+    <form action="#" method="post">
+      <fieldset class="row g-3 mb-3">
+        <legend class="text-uppercase fs-6 fw-bolder pt-3">gegevens</legend>
+        <div class="col-md-6">
+          <label for="firstName" class="form-label">voornaam <span>*</span></label>
+          <input type="text" class="form-control" id="firstName" required>
+        </div>
+        <div class="col-md-6">
+          <label for="lastName" class="form-label">achternaam <span>*</span></label>
+          <input type="text" class="form-control" id="lastName" required>
+        </div>
+        <div class="col-6">
+          <label for="mobile" class="form-label">mobiel</label>
+          <input type="tel" class="form-control" id="mobile" placeholder="0412 34 56 78">
+        </div>
+        <div class="col-6">
+          <label for="question" class="form-label">vraag <span>*</span></label>
+          <input type="tel" class="form-control" id="question" placeholder="Wat is de beste sensor voor..." required>
+        </div>
+      </fieldset>
+      </fieldset>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">verzenden</button>
+      </div>
+    </form>
+    <div class="container mt-4">
+      <a href="index.html" class="email-button">Terug naar de hoofdpagina<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-left" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.146 4.854a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H12.5A2.5 2.5 0 0 1 15 6.5v8a.5.5 0 0 1-1 0v-8A1.5 1.5 0 0 0 12.5 5H2.707l3.147 3.146a.5.5 0 1 1-.708.708z"/>
+      </svg></a>
+    </div>
+  
+  <footer class="container-fluid text-center h6 small p-4">Sensoria</footer>
 </body>
 </html>
