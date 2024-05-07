@@ -1,61 +1,81 @@
 <!DOCTYPE html>
 <html lang="nl-BE">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sensoria</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
+</head>
+
 <body>
 
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="/assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-          Sensoria
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="/diensten.html">Terug</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    Sensoria
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/diensten.html">Terug</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-  <div class="container mt-4">
-    <h1><u>De integratie van sensoren.</u></h1>
-    <p>
-      Waar worden sensoren voor gebruikt?
+    <main class="container mt-4">
+        <section>
+            <h1>Integratie van sensoren in verschillende sectoren</h1>
+            <p>
+                Hieronder vindt u een overzicht van hoe sensoren worden gebruikt in verschillende sectoren:
+            </p>
+            <hr>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Sector</th>
+                            <th scope="col">Toepassingen</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Industriële automatisering</td>
+                            <td>Sensoren worden gebruikt voor het monitoren en regelen van processen, detecteren van fouten, en waarborgen van veiligheid. Voorbeelden zijn druk-, temperatuur-, en niveausensoren in fabrieken en productielijnen.</td>
+                        </tr>
+                        <tr>
+                            <td>Slimme gebouwen</td>
+                            <td>Sensoren worden gebruikt voor het optimaliseren van energieverbruik, verbeteren van comfortniveaus, en waarborgen van veiligheid. Dit omvat sensoren voor het meten van temperatuur, vochtigheid, lichtniveaus, en beweging.</td>
+                        </tr>
+                        <tr>
+                            <td>Gezondheidszorg</td>
+                            <td>Sensoren spelen een cruciale rol in de gezondheidszorg, van het monitoren van vitale functies bij patiënten tot het volgen van fitnessparameters bij gebruikers van wearables. Voorbeelden zijn hartslagmeters, bloeddruksensoren, glucosemonitors, en activiteitentrackers.</td>
+                        </tr>
+                        <tr>
+                            <td>Automotive</td>
+                            <td>Sensoren worden gebruikt voor verschillende toepassingen in de auto-industrie, waaronder het monitoren van motorprestaties, detecteren van obstakels bij parkeerhulp, verbeteren van rijveiligheid met ABS en ESC, en mogelijk maken van autonoom rijden met sensoren voor detectie van omgevingsveranderingen.</td>
+                        </tr>
+                        <tr>
+                            <td>Milieumonitoring</td>
+                            <td>Sensoren worden ingezet voor het bewaken van luchtkwaliteit, waterkwaliteit, geluidsniveaus, en andere milieufactoren.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
 
-    </p>
-    <p>
-      In de wereld van het Internet of Things (IoT) zijn sensoren de sleutel tot het creëren van verbonden ecosystemen. Door sensoren te integreren in alledaagse objecten zoals thermostaten, verlichtingssystemen, en zelfs koelkasten, kunnen deze objecten intelligentie verwerven en communiceren met andere apparaten en systemen. Dit opent een wereld van mogelijkheden, variërend van het optimaliseren van energieverbruik tot het verbeteren van gebruikerservaringen door gepersonaliseerde interacties.
-      
-      In de gezondheidszorg spelen sensoren een revolutionaire rol, waardoor medische apparaten en wearables kunnen worden ontwikkeld die real-time gezondheidsgegevens kunnen verzamelen en analyseren. Van hartslagmeters tot glucosemonitors, sensoren helpen bij het bewaken van vitale functies en stellen zorgverleners in staat om proactief in te grijpen bij gezondheidsproblemen.
-      
-      In de industrie worden sensoren gebruikt in een breed scala aan toepassingen, variërend van het monitoren van machines en processen tot het waarborgen van veiligheid op de werkplek. Door sensoren te integreren in productielijnen kunnen bedrijven realtime gegevens verzamelen over prestaties en efficiëntie, waardoor ze hun activiteiten kunnen optimaliseren en kosten kunnen verlagen.
-      
-      De opkomst van autonome voertuigen is een ander gebied waarin sensoren een cruciale rol spelen. Radars, lidar-systemen en camera's fungeren als de zintuigen van deze voertuigen, waardoor ze hun omgeving kunnen waarnemen en autonoom kunnen navigeren. Door sensoren te integreren in voertuigen kunnen ze niet alleen veiliger worden, maar ook efficiënter en milieuvriendelijker.
-      
-      Naast deze voorbeelden zijn er talloze andere gebieden waarin sensoren worden geïntegreerd om innovatieve oplossingen te bieden. Of het nu gaat om slimme steden die sensoren gebruiken om verkeer te regelen en de luchtkwaliteit te bewaken, of om landbouwbedrijven die sensoren inzetten om gewassen te monitoren en water te besparen, de mogelijkheden zijn eindeloos.
-      
-      In een tijdperk waarin data de nieuwe valuta is, vormen sensoren de bouwstenen van een steeds meer verbonden en intelligente wereld. Door deze kleine maar krachtige apparaten te integreren in verschillende aspecten van ons leven, kunnen we niet alleen efficiënter werken en kosten besparen, maar ook nieuwe mogelijkheden ontdekken die voorheen ondenkbaar waren. Met sensoren als onze gids, staan we aan de vooravond van een opwindende nieuwe era van technologische vooruitgang en innovatie.
-    </p>
-  </div>
+    <footer class="container-fluid text-center h6 small p-4">Sensoria - Dimi Verhuslt IOT D2</footer>
 
-  <div class="container mt-4">
-    <a href="/index.html" class="email-button">Terug naar de hoofdpagina<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-left" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M1.146 4.854a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H12.5A2.5 2.5 0 0 1 15 6.5v8a.5.5 0 0 1-1 0v-8A1.5 1.5 0 0 0 12.5 5H2.707l3.147 3.146a.5.5 0 1 1-.708.708z"/>
-    </svg></a>
-  </div>
-  <footer class="container-fluid text-center h6 small p-4">Sensoria - Dimi Verhuslt IOT D2</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-rZyoGccQlE7MhStGYpC94nrjKgPtk7W0JtiXN3FqWcLehew0I5rACB1zhDgPZs4Y" crossorigin="anonymous"></script>
 </body>
+
 </html>
