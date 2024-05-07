@@ -1,72 +1,119 @@
 <!DOCTYPE html>
 <html lang="nl-BE">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sensoria</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    
+</head>
+
 <body>
 
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="/assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-          Sensoria
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="/diensten.html">Terug</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="/assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    Sensoria
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/diensten.html">Terug</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-4">
+        <section>
+            <h1>De soorten sensoren</h1>
+            <p>
+                Welkom in onze uitgebreide verzameling, waar we je meenemen op een reis door de fascinerende wereld van
+                sensortechnologieën. Of je nu een gepassioneerde hobbyist, een nieuwsgierige student of een doorgewinterde
+                professional bent, hier vind je alles wat je moet weten over de verschillende soorten sensoren die onze
+                wereld transformeren.
+            </p>
+            <hr>
+            <article class="sensor-container temperature">
+                <h2>Temperatuursensoren</h2>
+                <p>
+                    Temperatuursensoren zijn misschien wel een van de meest alledaagse sensoren die we tegenkomen. Ze meten
+                    de temperatuur van hun omgeving en worden gebruikt in diverse toepassingen, variërend van
+                    klimaatbeheersingssystemen tot voedselopslag en industriële processen.
+                </p>
+            </article>
+            <article class="sensor-container motion">
+                <h2>Bewegingssensoren</h2>
+                <p>
+                    Bewegingssensoren detecteren beweging in hun omgeving en worden veel gebruikt in beveiligingssystemen,
+                    automatische deuropeners en verlichtingsregelingen.
+                </p>
+            </article>
+            <article class="sensor-container light">
+                <h2>Lichtsensoren</h2>
+                <p>
+                    Lichtsensoren meten de intensiteit van licht en worden toegepast in automatische verlichtingssystemen,
+                    camera's, en zelfs in de medische sector voor fototherapie.
+                </p>
+            </article>
+            <article class="sensor-container sound" onclick="playSound()">
+                <h2>Geluidssensoren</h2>
+                <p>
+                    Geluidssensoren vangen geluidstrillingen op en worden gebruikt in onder meer slimme assistenten,
+                    geluidsmetingen en inbraakalarmen.
+                </p>
+            </article>
+            <article class="sensor-container pressure" onclick="stayOnPage()">
+                <h2>Druksensoren</h2>
+                <p>
+                    Druksensoren meten drukveranderingen en worden ingezet in barometers, medische apparaten en
+                    industriële machines.
+                </p>
+            </article>
+            <article class="sensor-container humidity">
+                <h2>Vochtigheidssensoren</h2>
+                <p>
+                    Vochtigheidssensoren meten de vochtigheidsgraad in de lucht en worden gebruikt in klimaatbeheersing,
+                    landbouw en industriële droogsystemen.
+                </p>
+            </article>
+        </section>
+    </main>
 
     <div class="container mt-4">
-      <h2>De soorten sensoren.</h2>
-      <p>
-          Welkom in onze uitgebreide verzameling, waar we je meenemen op een reis door de fascinerende wereld van sensortechnologieën. Of je nu een gepassioneerde hobbyist, een nieuwsgierige student of een doorgewinterde professional bent, hier vind je alles wat je moet weten over de verschillende soorten sensoren die onze wereld transformeren.
-      </p>
-      <h4>1. Temperatuursensoren</h4>
-      <p>
-          Temperatuursensoren zijn misschien wel een van de meest alledaagse sensoren die we tegenkomen. Ze meten de temperatuur van hun omgeving en worden gebruikt in diverse toepassingen, variërend van klimaatbeheersingssystemen tot voedselopslag en industriële processen.
-      </p>
-      <h4>2. Bewegingssensoren</h4>
-      <p>
-          Bewegingssensoren detecteren beweging in hun omgeving en worden veel gebruikt in beveiligingssystemen, automatische deuropeners en verlichtingsregelingen.
-      </p>
-      <h4>3. Lichtsensoren</h4>
-      <p>
-          Lichtsensoren meten de intensiteit van licht en worden toegepast in automatische verlichtingssystemen, camera's, en zelfs in de medische sector voor fototherapie.
-      </p>
-      <h4>4. Geluidssensoren</h4>
-      <p>
-          Geluidssensoren vangen geluidstrillingen op en worden gebruikt in onder meer slimme assistenten, geluidsmetingen en inbraakalarmen.
-      </p>
-      <h4>5. Druksensoren</h4>
-      <p>
-          Druksensoren meten drukveranderingen en worden ingezet in barometers, medische apparaten en industriële machines.
-      </p>
-      <h4>6. Vochtigheidssensoren</h4>
-      <p>
-          Vochtigheidssensoren meten de vochtigheidsgraad in de lucht en worden gebruikt in klimaatbeheersing, landbouw en industriële droogsystemen.
-      </p>
-  </div>
-  
+      <a href="/index.html" class="email-button">Terug naar de hoofdpagina<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-left" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.146 4.854a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H12.5A2.5 2.5 0 0 1 15 6.5v8a.5.5 0 0 1-1 0v-8A1.5 1.5 0 0 0 12.5 5H2.707l3.147 3.146a.5.5 0 1 1-.708.708z"/>
+      </svg></a>
+    </div>
 
-  <div class="container mt-4">
-    <a href="/index.html" class="email-button">Terug naar de hoofdpagina<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-left" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M1.146 4.854a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H12.5A2.5 2.5 0 0 1 15 6.5v8a.5.5 0 0 1-1 0v-8A1.5 1.5 0 0 0 12.5 5H2.707l3.147 3.146a.5.5 0 1 1-.708.708z"/>
-    </svg></a>
-  </div>
-  <footer class="container-fluid text-center h6 small p-4">Sensoria - Dimi Verhuslt IOT D2</footer>
+    <footer class="container-fluid text-center h6 small p-4">Sensoria - Dimi Verhuslt IOT D2</footer>
+
+    <script>
+        function playSound() {
+            const sound = new Audio("/assets/pop-39222.mp3");
+            sound.play();
+        }
+
+        function stayOnPage() {
+            alert("Zo werkt een druksensor!");
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-rZyoGccQlE7MhStGYpC94nrjKgPtk7W0JtiXN3FqWcLehew0I5rACB1zhDgPZs4Y" crossorigin="anonymous"></script>
+  
 </body>
+
 </html>

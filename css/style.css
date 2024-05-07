@@ -1,0 +1,46 @@
+.sensor-container {
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.sensor-container:hover {
+    transform: translateY(-2px);
+}
+
+/* Custom styles for specific sensor containers */
+.temperature:hover {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.motion:hover {
+    animation: shake 0.5s infinite alternate;
+}
+
+.light:hover {
+    background-color: rgba(255, 255, 0, 0.1);
+}
+
+.sound:hover {
+    cursor: pointer;
+}
+
+.pressure {
+    cursor: pointer;
+}
+
+.humidity:hover {
+    background-color: rgba(0, 0, 255, 0.1);
+}
+
+/* Keyframe animation for shaking motion */
+@keyframes shake {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(5deg);
+    }
+}
