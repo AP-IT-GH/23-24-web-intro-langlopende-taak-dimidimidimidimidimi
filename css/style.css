@@ -49,7 +49,7 @@
     background-image: url('assets/hoofdFoto.jpg');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(74, 74, 74);
     text-shadow: 2px 2px 4px black;
     position: relative;
   }
@@ -73,3 +73,20 @@
     opacity: 1;
     z-index: 2;
   }
+
+.about-dimi img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+.about-dimi img {
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+
+.about-dimi {
+        color: rgb(74, 74, 74);
+      }
+
