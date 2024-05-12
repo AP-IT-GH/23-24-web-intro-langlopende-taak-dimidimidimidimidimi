@@ -64,51 +64,29 @@
     z-index: 1;
   }
 
-.about-dimi:hover img.hoofd {
-    opacity: 0;
-  }
-
-.about-dimi:hover img.hoofdFoto {
-    opacity: 1;
-    z-index: 2;
-  }
-
 .about-dimi img {
     max-width: 100%;
     display: block;
     margin: 0 auto;
   }
 
-.about-dimi img {
-      max-width: 100%;
-      display: block;
-      margin: 0 auto;
-    }
-
 .about-dimi {
         color: rgb(74, 74, 74);
       }
 
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-}
+#imageContainer {
+    text-align: center;
+    margin-top: 50px;
+  }
 
+#imageContainer img {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+  }
 
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
+#imageInfo {
+    text-align: center;
+    margin-top: 20px;
+  }
 
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-}
-
-
-.mySlides {
-    display: none;
-}

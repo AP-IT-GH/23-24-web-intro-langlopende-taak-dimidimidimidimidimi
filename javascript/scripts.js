@@ -8,3 +8,4 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 L.marker([52.5200675543843, 13.40481846661213]).addTo(map)
     .bindPopup('Berlijn, de hoofdstad van Duitsland.')
     .openPopup();
+
