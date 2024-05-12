@@ -42,33 +42,33 @@
     <h2 class="mb-4">Stel uw vragen hier!</h2>
     <p>Geef je gegevens in en stuur ons je vraag!</p>
     <hr>
-    <form action="#" method="post">
-        <fieldset class="row g-3 mb-3">
-            <div class="col-md-6">
-                <label for="firstName" class="form-label">Naam en voornaam<span>*</span></label>
-                <input type="text" class="form-control" id="firstName" required>
-            </div>
-            <div class="col-md-6">
-                <label for="lastName" class="form-label">E-mail <span>*</span></label>
-                <input type="text" class="form-control" id="lastName" required>
-            </div>
-            <div class="col-12">
-                <label for="question" class="form-label">Vraag <span>*</span></label>
-                <input type="text" class="form-control" id="question" placeholder="Wat is de beste sensor voor..." required>
-            </div>
-            <div class="col-12">
-              <label for="occupation" class="form-label">Voor wie is de vraag?<span>*</span></label>
-              <select class="form-select" id="occupation" required>
+    <form action="https://formspree.io/f/xvoeyalr" method="POST">
+      <fieldset class="row g-3 mb-3">
+          <div class="col-md-6">
+              <label for="firstName" class="form-label">Naam en voornaam</label>
+              <input type="text" class="form-control" id="firstName" name="naam" placeholder="Uw naam en voornaam" required>
+          </div>
+          <div class="col-md-6">
+              <label for="lastName" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="lastName" name="email" placeholder="Uw e-mail adres" required>
+          </div>
+          <div class="col-12">
+              <label for="question" class="form-label">Vraag</label>
+              <input type="text" class="form-control" id="question" name="vraag" placeholder="Uw vraag" required>
+          </div>
+          <div class="col-12">
+              <label for="occupation" class="form-label">Voor wie is de vraag?</label>
+              <select class="form-select" id="occupation" name="doelgroep" required>
                   <option value="">Kies een optie</option>
                   <option value="administratie">Administratie</option>
                   <option value="webdesigner">Webdesigner</option>
                   <option value="eigenaar">Eigenaar</option>
               </select>
           </div>
-        </fieldset>
-        <div class="col-12">
-            <button type="submit" class="btn btn-primary">Verzenden</button>
-        </div>
+      </fieldset>
+      <div class="col-12">
+          <button type="submit" class="btn btn-primary">Verzenden</button>
+      </div>
     </form>
     <div class="container mt-4">
         <a href="index.html" class="email-button">Terug naar de hoofdpagina<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-left" viewBox="0 0 16 16">
